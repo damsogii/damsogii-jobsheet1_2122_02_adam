@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  width: 1300px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.menu ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 18px;
+}
+
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: #ff7200;
+}
+
+.menu ul {
+  text-align: center;
+}
+
+.daftarsenjata {
+text-align: center;
+color: #fff;
+}
+
+.section2 {
+  background-color: orange;
+  height: 80vh;
+  margin-top:170px;
+  text-align: center;
+  color: #fff;
+}
+
+.section2-list{
+  text-align:left;
+  display:inline-block;
+}
+
+.section3-list{
+  text-align:left;
+  display:inline-block;
+}
+
+.section4 {
+  background-color: black;
+  height: 140vh;
+  margin-top:0px;
+  text-align: center;
+  color: #fff;
+}
+
+.section5-container table, th, tr, td{
+  border:1px solid white;
+  margin-left: 450px;
+}
+
+.menu ul li .dropdown{
+	display: none;
+}
+.menu ul li:hover .dropdown{
+	display: block;
+	background: black;
+	position: absolute;
+	padding: 10px;
+}
+.menu ul li:hover .dropdown li{
+	display: block;
+}
+.dropdown{
+	border-radius: 25px;
+}
+.dropdown li{
+	margin-bottom: 8.5px;
+}
+
+ul.dropdown li {
+  margin-left: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ff7200;
+  color: white;
+}
