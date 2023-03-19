@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>LOGIN FORM</title>
-    <link rel="stylesheet" href="mas.css" />
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
     <div class="main">
@@ -23,15 +23,42 @@
     </div>
 
     <div class="login">
-      <h1>LOGIN HERE</h1> <br>
+      <h1>MAKE ACCOUNT</h1> <br>
       <form>
         <p>Usename:</p><br>
         <input type="text" name="" placeholder="enter username">
         <p>Password:</p><br>
-        <input type="password" name="" placeholder="enter password"><br> <br>
-        <input type="submit" name="" value="Login"><br>
-        <a href="#">Forgot Your Password</a><br>
-        <a href="#">Create new Password</a> 
+        <input type="password" name="" placeholder="enter password"><br> 
+        <input type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01" max="2018-12-31">
+
+        <label for="story">Additional info:</label>
+        <br>
+        <br>
+        <textarea id="story" name="story"
+          rows="1" cols="30">
+          Enter text here...
+        </textarea>
+       <br>
+       <br>
+        <label for="gender-select">Choose a gender:</label>
+
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="Boy">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br>
+        <br>
+        <div class="preference">
+          <label for="Agree">Do You Agree?</label>
+          <input type="checkbox" name="Agree" id="Agree">
+        </div>
+        <br>
+        <input type="submit" name="" value="Submit"><br>
+       
+         
       </form>
     </div>
 
